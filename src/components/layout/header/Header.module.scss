@@ -1,0 +1,28 @@
+#Header {
+  background-color: black;
+  .Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    .header_buttons {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      button {
+        color: white;
+        background: transparent;
+        border: none;
+        font-size: 26px;
+      }
+    }
+  }
+}
