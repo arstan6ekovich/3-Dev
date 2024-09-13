@@ -23,9 +23,11 @@ const Header = () => {
             <button>
               <CiSearch />
             </button>
-            <button>
-              <CiUser />
-            </button>
+            <Link href={"/admin"}>
+              <button>
+                <CiUser />
+              </button>
+            </Link>
             <button>
               <CiHeart />
             </button>
