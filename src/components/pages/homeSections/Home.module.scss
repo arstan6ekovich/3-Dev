@@ -2,7 +2,7 @@
   background-image: url("../../../assets/Images/1.svg");
   background-size: cover;
   padding: 0 100px;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -32,6 +32,13 @@
         border: none;
         cursor: pointer;
         font-size: 16px;
+
+        &:hover {
+          background: #ff8b3d;
+        }
+        &:active {
+          background: #f57520;
+        }
       }
     }
   }

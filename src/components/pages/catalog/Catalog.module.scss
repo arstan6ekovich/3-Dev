@@ -1,57 +1,69 @@
-.Catalogs {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+.Catalog {
+  background: white;
   padding: 100px 0;
-  .catalog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Catalogs {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    h1 {
-      font-family: Bebas Neue;
-    }
+    gap: 50px;
 
-    .block {
-      display: flex;
-      gap: 15px;
-      // justify-content: space-between;
-
-      .box1 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-      }
-      .box2 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-      }
-    }
-  }
-
-  .catalog_text {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-
-    .texth1 {
-      h1 {
-        font-size: 44px;
-        width: 400px;
-      }
-    }
-    .textp {
+    .catalog {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      p {
-        width: 450px;
-        font-size: 16px;
+      align-items: center;
+      gap: 10px;
+      h1 {
+        font-family: Bebas Neue;
       }
 
-      h2 {
-        font-size: 16px;
+      .block {
+        display: flex;
+        gap: 15px;
+        // justify-content: space-between;
+
+        .box1 {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+        }
+        .box2 {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .catalog_text {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      color: black;
+
+      .texth1 {
+        h1 {
+          font-size: 44px;
+          width: 400px;
+        }
+      }
+      .textp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+          width: 450px;
+          font-size: 16px;
+        }
+
+        a {
+          font-size: 16px;
+          text-decoration: none;
+          margin-top: 20px;
+          color: gray;
+        }
       }
     }
   }

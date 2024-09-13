@@ -11,7 +11,7 @@ import scss from "./Catalog.module.scss";
 
 const Catalog = () => {
   return (
-    <div>
+    <div className={scss.Catalog}>
       <div className="container">
         <div className={scss.Catalogs}>
           <div className={scss.zagalovok}>
@@ -42,7 +42,7 @@ const Catalog = () => {
                 аксессуаров и различного спортивного инвентаря для активного
                 спорта и отдыха.
               </p>
-              <h2>Подробнее</h2>
+              <a href="">Подробнее</a>
             </div>
           </div>
         </div>
